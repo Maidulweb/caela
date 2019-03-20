@@ -1,0 +1,296 @@
+/* ======================
+    Responsive CSS
+   =====================*/
+.navbar-light .navbar-toggler {
+	color: #fff !important;
+	border-color: transparent;
+	background: #0e6ba8;
+}
+/*Large Devices*/
+@media (min-width: 1200px){
+
+}
+/*Medium Devices*/
+@media (min-width: 992px) and (max-width: 1199px){
+#home_content_inner h1 {
+	font-size: 50px;
+}
+#home_content_inner h2 {
+	font-size: 50px;
+}
+
+}
+/*Small Devices*/
+@media (min-width: 768px) and (max-width: 991px){
+h1 {
+    font-size: 23px;
+}
+.content_box_lg {
+	padding: 0px 0;
+}
+.vertical_heading h1{
+	font-size: 30px;
+}
+.navbar-nav{
+	background: #222222 !important;
+	padding: 40px;
+}
+#home_content_inner h1 {
+	font-size: 40px;
+}
+#home_content_inner h2 {
+	font-size: 40px;
+}
+#home_content_inner p {
+	font-size: 14px;
+}
+
+.tab_block h2 {
+    font-size: 30px;
+}
+.tab_block a{
+	font-size: 14px;
+}
+.r-tabs .r-tabs-nav {
+	display: inline-block;
+}
+.r-tabs .r-tabs-accordion-title {
+	display: none;
+}
+.price_button a {
+	padding: 10px 30px;
+}
+.blog_left {
+	height: 322px;
+}
+.blog_item .blog_left img {
+	width: 100%;
+	height: 100%;
+}
+.blog_right {
+	height: 322px;
+}
+.blog_right h2 {
+	font-size: 16px;
+}
+.blog_right .blog_author_date a, .like_share a {
+	font-size: 13px;
+}
+.blog_right p {
+	padding-top: 6px;
+	padding-bottom: 2px;
+	font-size: 13px;
+}
+.main_body_social {
+	font-size: 14px;
+}
+.main_body_social li a i {
+	font-size: 13px !important;
+}
+.price_item_middle h2 {
+	font-size: 25px;
+	padding-left: 14px;
+}
+.month {
+	padding-left: 0;
+	display: inherit;
+}
+.price_item_middle p {
+	font-size: 11px;
+}
+}
+/*Extra Small Devices*/
+@media (max-width: 767px){
+	.navbar-nav{
+	background: #222222 !important;
+	padding: 40px;
+}	
+#home_content_inner h1 {
+	font-size: 30px;
+}
+#home_content_inner h2 {
+	font-size: 30px;
+}
+#home_content_inner p {
+	font-size: 12px;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.content_box_lg {
+	padding: 20px 0;
+}
+.vertical_heading h1 {
+	font-size: 30px;
+}
+.services_block:hover i{
+	transform: translateY(-20px);
+	-webkit-transform: translateY(-20px);
+}
+.r-tabs .r-tabs-accordion-title {
+	text-align: center;
+}
+#vatia_talk h2 {
+	font-size: 20px !important;
+}
+#vatia_talk h1 {
+	font-size: 20px !important;
+}
+#vatia_talk button {
+	font-size: 22px !important;
+}
+#testimonial_item h1 {
+	font-size: 18px;
+}
+.star_ul {
+	float: left;
+}
+.star_ul li a {
+	font-size: 10px;
+}
+#testimonial_item {
+	padding: 30px 30px 0 30px;
+}
+#testimonial_item p {
+	font-size: 12px;
+	padding: 0;
+}
+#testimonial .owl-carousel .owl-item img {
+	width: 18%;
+}
+#testimonial .owl-theme .owl-nav {
+	margin-top: 10px;
+}
+.author_details h5 {
+	font-size: 14px;
+}
+.author_details h6{
+	font-size: 12px;
+}
+.blog_left, .blog_right {
+	height: auto;
+}
+}
+@media (max-width: 576px) {
+
+.fa-facebook-f {
+	font-size: 14px !important;
+	padding: 5px 6px;
+}
+.fa-twitter {
+	font-size: 13px !important;
+	padding: 5px 4px;
+}
+.fa-google-plus {
+}
+.fa-youtube {
+	font-size: 13px !important;
+	padding: 5px 3px;
+	}
+.fa-linkedin-in {
+	font-size: 13px !important;
+	padding: 5px 4px;
+}
+.fa-pinterest-p {
+	padding: 5px 5px;
+}
+#home_content_inner h1 {
+	font-size: 20px;
+}
+#home_content_inner h2 {
+	font-size: 20px;
+}
+#home_content_inner p {
+	font-size: 10px;
+	width: 80%;
+	margin: 0 auto;
+}
+#home_content_inner a {
+	padding: 8px 26px;
+	font-size: 13px;
+}
+.vertical_heading h1 {
+	font-size: 25px;
+}
+.services_block i{
+	float: left;
+}
+.services_block:hover i{
+	transform: translateX(20px);
+	-webkit-transform: translateX(20px);
+}
+#vatia_talk h2 {
+	font-size: 16px !important;
+}
+#vatia_talk h1 {
+	font-size: 16px !important;
+}
+#vatia_talk button {
+	font-size: 18px !important;
+}
+#testimonial_item h1 {
+	font-size: 14px;
+}
+.star_ul {
+	float: left;
+}
+.star_ul li a {
+	font-size: 10px;
+}
+#testimonial_item {
+	padding: 20px 20px 0 20px;
+}
+#testimonial_item p {
+	font-size: 10px;
+	padding: 0;
+}
+#testimonial .owl-carousel .owl-item img {
+	width: 18%;
+}
+#testimonial .owl-theme .owl-nav {
+	margin-top: 10px;
+}
+.author_details h5 {
+	font-size: 12px;
+}
+.author_details h6{
+	font-size: 10px;
+}
+}
+@media (max-width: 420px) {
+ header .col-6{
+ 	padding: 0;
+ }
+ .fa-facebook-f {
+	font-size: 12px !important;
+	padding: 0;
+}
+.fa-twitter {
+	font-size: 12px !important;
+	padding: 0;
+}
+.fa-google-plus {
+	font-size: 12px !important;
+}
+.fa-youtube {
+	font-size: 12px !important;
+	padding: 0;
+	}
+.fa-linkedin-in {
+	font-size: 12px !important;
+	padding: 0;
+}
+.fa-pinterest-p {
+	font-size: 12px !important;
+	padding: 0;
+}
+.header_top_left{
+	padding-top: 4px;
+}
+.header_top_right a {
+	color: #fff !important;
+	padding-right: 3px;
+	cursor: pointer;
+	font-size: 12px;
+}
+}

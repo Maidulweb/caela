@@ -1,0 +1,39 @@
+.demo_header {
+	background: #0c6ba8;
+	color: #fff;
+	height: 220px;
+    }
+    .demo_header h1{
+    	padding-top: 73px;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .demo_header h2{
+      font-size: 22px;
+      font-weight: 700;
+    }
+    #demo_body {
+  		margin-top:50px;
+  	}
+  	.demo_item {
+	margin-bottom: 60px;
+	box-shadow: 0px 5px 5px;
+	padding-bottom: 11px;
+}
+.demo_item:hover{
+  animation-name: pulse;
+  animation-duration: .5s;
+}
+  	.demo_item img{
+  		width: 100%;
+  	}
+  	.demo_item a {
+	color: #0c6ba8;
+	font-size: 20px;
+	width: 100%;
+	font-weight: 700;
+}
+.demo_item a:hover{
+  text-decoration: none;
+  color: #000;
+}
